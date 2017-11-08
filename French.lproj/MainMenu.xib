@@ -172,22 +172,22 @@
                             <menuItem title="Orthographe et grammaire" id="216">
                                 <menu key="submenu" title="Spelling and Grammar" id="200">
                                     <items>
-                                        <menuItem title="Afficher l'orthographe et la grammaire…" keyEquivalent=":" id="204">
+                                        <menuItem title="Afficher l'orthographe et la grammaire" keyEquivalent=":" id="204">
                                             <connections>
                                                 <action selector="showGuessPanel:" target="-1" id="230"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Vérifier l'orthographe maintenant" keyEquivalent=";" id="201">
+                                        <menuItem title="Vérifier le document maintenant" keyEquivalent=";" id="201">
                                             <connections>
                                                 <action selector="checkSpelling:" target="-1" id="225"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Vérifier l'orthographe pendant la frappe" id="219">
+                                        <menuItem title="Vérifier l'orthographe lors de la saisie" id="219">
                                             <connections>
                                                 <action selector="toggleContinuousSpellChecking:" target="-1" id="222"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Vérifier la grammaire avec l'orthographe" id="346">
+                                        <menuItem title="Vérifier la grammaire et l'orthographe" id="346">
                                             <connections>
                                                 <action selector="toggleGrammarChecking:" target="-1" id="347"/>
                                             </connections>
@@ -198,7 +198,7 @@
                             <menuItem title="Substitutions" id="348">
                                 <menu key="submenu" title="Substitutions" id="349">
                                     <items>
-                                        <menuItem title="Copier/coller intelligent" tag="1" keyEquivalent="f" id="350">
+                                        <menuItem title="Copier-coller intelligent" tag="1" keyEquivalent="f" id="350">
                                             <connections>
                                                 <action selector="toggleSmartInsertDelete:" target="-1" id="355"/>
                                             </connections>
@@ -234,11 +234,11 @@
                                 </menu>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="555"/>
-                            <menuItem title="Font" id="484">
+                            <menuItem title="Police" id="484">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Font" systemMenu="font" id="485">
                                     <items>
-                                        <menuItem title="Show Fonts" keyEquivalent="t" id="486">
+                                        <menuItem title="Afficher les polices" keyEquivalent="t" id="486">
                                             <connections>
                                                 <action selector="orderFrontFontPanel:" target="420" id="521"/>
                                             </connections>
@@ -387,7 +387,7 @@
                                     </items>
                                 </menu>
                             </menuItem>
-                            <menuItem title="Text" id="538">
+                            <menuItem title="Texte" id="538">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Text" id="539">
                                     <items>
@@ -619,7 +619,7 @@
                                     <action selector="showHelp:" target="-1" id="360"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Problems or Questions" id="562">
+                            <menuItem title="Problèmes et questions" id="562">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="openTracker:" target="-1" id="565"/>
@@ -631,7 +631,7 @@
                                     <action selector="openReleaseNotes:" target="-1" id="570"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="TeX Live Utility Wiki" id="560">
+                            <menuItem title="Wiki TeX Live Utility" id="560">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="openTLUWiki:" target="-1" id="566"/>
